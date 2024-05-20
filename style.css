@@ -1,0 +1,421 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x:hidden ;
+}
+
+.barlow {
+	font-family: "Barlow Condensed", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+  }
+
+  .gilda {
+	font-family: "Gilda Display", serif;
+	font-weight: 400;
+	font-style: normal;
+  }
+  
+  .barlow-p {
+	font-family: "Barlow", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+  }
+  
+  .btn-1 {
+	padding: 15px 25px;
+	background-color: #AA8453;
+	border: none;
+	transition: 0.7s ease;
+  }
+
+  .btn-1 a {
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+  }
+  .btn-1:hover {
+	background-color: #222222;
+	transition: 0.7s ease;
+  }
+  
+#bck-img {
+	background: url('img/540340710.jpg') rgba(0, 0, 0, 0.40);
+    background-repeat: no-repeat;
+	background-attachment:fixed;
+	background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+    height: 50vh;
+    display: flex;
+	text-align: center;
+	align-items: center;
+}
+
+.bg-1 {
+    background: url('img/536847638.jpg') rgba(0, 0, 0, 0.40);
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    height: 100vh;
+	display: flex;
+	align-items: center;
+}
+
+.bg-2 {
+	background: url('img/540340696.jpg') rgba(0, 0, 0, 0.40);
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    height: 100vh;
+	display: flex;
+	align-items: center;
+}
+
+.bg-3 {
+	background: url('img/540340704.jpg') rgba(0, 0, 0, 0.40);
+	background-repeat: no-repeat;
+    background-size: cover;
+	background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    height: 100vh;
+	display: flex;
+	align-items: center;
+}
+
+.faci {
+    padding: 40px;
+    background-color:#222222;
+    margin: 10px 0;
+	border: 1px solid grey;
+	border-radius:50px 0;
+	transition: 1s ease;
+}
+
+.faci:hover {
+	border-radius: 0 ;
+	transition: 1s ease;
+	cursor: pointer;
+}
+
+.faci h2 {
+    font-size: 25px;
+    margin: 30px 0;
+    color: white;
+}
+
+.faci i {
+    color: #DFA974;
+    font-size: 45px;
+}
+
+
+/* rooms */
+.hp-room-items {
+	margin-left: -15px;
+	margin-right: -15px;
+	overflow: hidden;
+	cursor: pointer;
+}
+.hp-room-items .hp-room-item {
+	height: 600px;
+	margin-right: -15px;
+	position: relative;
+	overflow: hidden;
+}
+.hp-room-items .hp-room-item:hover .hr-text {
+	bottom: 50px;
+}
+.hp-room-items .hp-room-item:hover .hr-text h2 {
+	margin-bottom: 30px;
+}
+.hp-room-items .hp-room-item .hr-text {
+	position: absolute;
+	left: 45px;
+	right: 25px;
+	bottom: -230px;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+.hp-room-items .hp-room-item .hr-text h3 {
+	color: #ffffff;
+	margin-bottom: 15px;
+}
+.hp-room-items .hp-room-item .hr-text h2 {
+	color: #dfa974;
+	font-weight: 700;
+	margin-bottom: 50px;
+	-webkit-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+}
+.hp-room-items .hp-room-item .hr-text h2 span {
+	font-family: "Cabin", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #ffffff;
+}
+.hp-room-items .hp-room-item .hr-text table {
+	margin-bottom: 20px;
+}
+.hp-room-items .hp-room-item .hr-text table tbody tr td {
+	font-size: 20px;
+	color: #ffffff;
+	line-height: 30px;
+}
+.hp-room-items .hp-room-item .hr-text table tbody tr td.r-o {
+	width: 120px;
+}
+.hp-room-items .hp-room-item .hr-text .primary-btn:after {
+	background: #ffffff;
+}
+
+.set-bg-1 {
+    background:url('img/studio-bg.jpg') rgba(0, 0, 0, 0.40);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+.set-bg-2 {
+    background:url('img/one-bedroom-bg.jpg') rgba(0, 0, 0, 0.40);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+.set-bg-3 {
+    background:url('img/studio-seaview-bg.jpg') rgba(0, 0, 0, 0.40);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+.set-bg-4 {
+    background:url('img/room-4.jpg') rgba(0, 0, 0, 0.40);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+.set-bg-5 {
+    background:url('img/room-5.jpg') rgba(0, 0, 0, 0.40);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+.set-bg-6 {
+    background:url('img/room-7.jpg') rgba(0, 0, 0, 0.40);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+.set-bg-7 {
+    background:url('img/studio-seaview-bg.jpg') rgba(0, 0, 0, 0.40);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+
+
+
+
+/* gallery */
+.gallery-img img {
+	transition: 0.5s ease;
+}
+.gallery-img img:hover {
+    transform: scale(1.04);
+	transition: 0.5s ease;
+	cursor: pointer;
+}
+
+
+
+/* about.html */
+#bck-about {
+	background: url('img/540343683.jpg') rgba(0, 0, 0, 0.40);
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-size: cover;
+	background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    height: 60vh;
+	display: flex;
+	align-items: center;
+}
+
+/* rooms.html */
+#bck-rooms {
+	background: url('img/rooms-bg.jpg') rgba(0, 0, 0, 0.40);
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-size: cover;
+	background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    height: 60vh;
+	display: flex;
+	align-items: center;
+}
+
+/* gallery.html */
+#bck-gallery {
+	background: url('img/gallery.jpg') rgba(0, 0, 0, 0.40);
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-size: cover;
+	background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    height: 60vh;
+	display: flex;
+	align-items: center;
+}
+#bck-contact {
+	background: url('img/contact.jpg') rgba(0, 0, 0, 0.40);
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-size: cover;
+	background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    height: 60vh;
+	display: flex;
+	align-items: center;
+}
+/* contact.html */
+
+.con-logo {
+	margin: 20px;
+	align-items: center;
+}
+.con-icon i {
+	font-size: 50px;
+	color: #DFA974;
+}
+
+.con-text {
+	margin-left: 15px;
+}
+
+.con-text h2 {
+	color: grey;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.con-text p {
+	font-size: 23px;
+	color: #DFA974;
+}
+
+.con-text a {
+	text-decoration: none;
+	color: #DFA974;
+}
+
+.desktop {
+	border-top-right-radius: 100px;
+}
+
+@media (max-width:767px) {
+	.desktop {
+		border-top-right-radius: 0px;
+	}
+
+	.mobile {
+		border-top-right-radius: 100px;
+	}
+}
+
+@media (max-width:991px) {
+	.contact-map iframe {
+		height: 600px;
+	}
+
+	.con-icon i {
+		font-size: 30px;
+	}
+
+	.con-text h2 {
+		font-size: 20px;
+	}
+
+	.con-text p {
+		font-size: 20px;
+	}
+
+	.contact-div h1 {
+		font-size: 40px !important;
+	}
+
+	.contact-div h4 {
+		font-size: 18px !important;
+	}
+
+	.hp-room-items .hp-room-item .hr-text table {
+		margin-bottom: -95px;
+	}
+
+
+	.hp-room-items .hp-room-item .hr-text table tbody tr td {
+		font-size: 17px !important;
+		color: #ffffff;
+		line-height: 30px;
+	}
+	.hp-room-items .hp-room-item .hr-text table tbody tr td.r-o {
+		width: 100%;
+	}
+}
+/* annimation */
+
+.fadeinleft {
+	opacity: 0;
+    transform: translateX(100px);
+    transition: all 1s ease-out;
+}
+  
+.fadeinright {
+	opacity: 0;
+    transform: translateX(-100px);
+    transition: all 1s ease-out;
+}
+  
+.fadeindown {
+    opacity: 0;
+    transform: translateY(-100px);
+    transition: all 1.2s ease-out;
+}
+  
+.fadeinup {
+    opacity: 0;
+    transform: translateY(100px);
+    transition: all 1.2s ease-out;
+}
+  
+.fade-in {
+    opacity: 0;
+    transition: all 1.3s ease-in;
+}
+  
+.active-left,
+.active,
+.active-right,
+.active-down,
+.active-up {
+    opacity: 1;
+    transform: translateX(0);
+    transform: translateY(0);
+}
+  
+.fadein {
+    opacity: 0;
+}
+
